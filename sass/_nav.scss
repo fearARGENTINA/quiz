@@ -1,6 +1,8 @@
 $nav_alto: 100px;
 
 header {
+	text-align: center;
+		
 	nav	{
 		height: $nav_alto;
 		width: 100%;
@@ -40,5 +42,20 @@ header {
 				}
 			}
 		}	
+	}
+
+	div {
+		margin: 0 auto;
+		ul.share_items {
+			margin: 20px auto;
+			li {
+				display: inline-block;
+				list-style: none;
+
+				&:not(:first-child) {
+					margin-left: 30px;
+				}
+			}
+		}
 	}
 }

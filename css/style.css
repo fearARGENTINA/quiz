@@ -2,33 +2,44 @@
 /* Coolors Exported Palette - coolors.co/f4f1de-83b692-3d405b-9aa0a8-1d1e18 */
 /* HSL */
 /* RGB */
-header nav {
-  height: 100px;
-  width: 100%;
-  text-align: center;
-  background-color: white;
-  border-bottom: 2px solid #9aa0a8; }
-  header nav img {
-    height: 70px;
-    margin-top: 15px; }
-  header nav ul {
-    display: inline-block;
-    padding: 0;
-    margin: 0 0 0 70px;
-    height: 100px; }
-    header nav ul li {
-      text-transform: uppercase;
-      list-style: none;
+header {
+  text-align: center; }
+  header nav {
+    height: 100px;
+    width: 100%;
+    text-align: center;
+    background-color: white;
+    border-bottom: 2px solid #9aa0a8; }
+    header nav img {
+      height: 70px;
+      margin-top: 15px; }
+    header nav ul {
       display: inline-block;
-      font-size: 20px;
-      line-height: 100px; }
-      header nav ul li:not(:last-child)::after {
-        content: '';
-        border-left: 2px solid black;
-        margin: 0 10px; }
-      header nav ul li a {
-        color: #1d1e18;
-        text-decoration: none; }
+      padding: 0;
+      margin: 0 0 0 70px;
+      height: 100px; }
+      header nav ul li {
+        text-transform: uppercase;
+        list-style: none;
+        display: inline-block;
+        font-size: 20px;
+        line-height: 100px; }
+        header nav ul li:not(:last-child)::after {
+          content: '';
+          border-left: 2px solid black;
+          margin: 0 10px; }
+        header nav ul li a {
+          color: #1d1e18;
+          text-decoration: none; }
+  header div {
+    margin: 0 auto; }
+    header div ul.share_items {
+      margin: 20px auto; }
+      header div ul.share_items li {
+        display: inline-block;
+        list-style: none; }
+        header div ul.share_items li:not(:first-child) {
+          margin-left: 30px; }
 
 section.publicidad {
   padding: 50px;

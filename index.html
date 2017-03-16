@@ -18,6 +18,58 @@
 				<li><a href="http://mentecuerposano.com/acerca-de/">Acerca de</a></li>
 			</ul>
 		</nav>
+		<div>
+			<ul class="share_items">
+				<li>
+					<a class="pin-it-button" count-layout="horizontal" rel="nofollow" href="//pinterest.com/pin/create/button/?url=http%3A%2F%2Fmentecuerposano.com%2Flp%2Fpreguntas%2Findex.html&amp;media=&amp;description=undefined"><img border="0" src="images/PinExt.png" title="Pin It"></a>
+
+					<script type="text/javascript">
+
+						$(document).ready(function(){
+							if(typeof(window.new_href) == "undefined") {
+								url = encodeURIComponent('http://mentecuerposano.com/lp/preguntas/index.html');
+								
+								media = $("#contentwrap p").find("img:first").attr("src");
+								if(typeof(media) == "undefined") {
+									media = $("#contentwrap ul").find("img:first").attr("src");
+								}
+								if(typeof(media) == "undefined") {
+									media = "";
+								}
+								if(media != "") {
+									media_url = encodeURIComponent("http://mentecuerposano.com") + encodeURIComponent(escape(media));
+								} else {
+									media_url = "";  
+								}
+								description = jQuery(document).find("meta[name='description']").attr("content") == "" ? jQuery(document).attr("title") : jQuery(document).find("meta[name='description']").attr("content");
+								
+								description = encodeURIComponent(description);
+								
+								new_href =  "//pinterest.com/pin/create/button/?url=" + url + "&media=" + media_url + "&description=" + description;
+								$(".pin-it-button").attr("href",new_href);  
+								window.new_href = new_href;
+
+								js = document.createElement('script');
+								js.src = "//assets.pinterest.comjs/pinit.js";
+								js.type = 'text/javascript';
+								document.body.appendChild(js);
+							}
+						});
+
+					</script>
+				</li>
+				<li>
+					<iframe id="twitter-widget-0" scrolling="no" frameborder="0" allowtransparency="true" class="twitter-share-button twitter-share-button-rendered twitter-tweet-button" title="Twitter Tweet Button" src="http://platform.twitter.com/widgets/tweet_button.a0ec3119d8db2bc5422f2144c89ad7a9.en.html#dnt=false&amp;id=twitter-widget-0&amp;lang=en&amp;original_referer=http%3A%2F%2Fmentecuerposano.com%2Flp%2Fpreguntas%2Findex2.html&amp;size=m&amp;text=Toma%20el%20Test%20de%20Anti-Envejecimiento%20y%20Quemagrasa&amp;time=1489633873111&amp;type=share&amp;url=http%3A%2F%2Fmentecuerposano.com%2Flp%2Fpreguntas%2Findex.html" style="position: static; visibility: visible; width: 60px; height: 20px;" data-url="http://mentecuerposano.com/lp/preguntas/index.html"></iframe>
+					<script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
+				</li>   
+				<li align="left" valign="top">
+					<iframe src="https://www.facebook.com/plugins/share_button.php?href=http%3A%2F%2Fmentecuerposano.com%2Flp%2Fpreguntas%2Findex.html&amp;layout=button_count&amp;size=small&amp;mobile_iframe=true&amp;appId=439524829574377&amp;width=68&amp;height=20" width="117" height="20" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowtransparency="true"></iframe>
+				</li>
+				<li align="left" valign="top">
+					<iframe src="https://www.facebook.com/plugins/like.php?href=http%3A%2F%2Fmentecuerposano.com%2Flp%2Fpreguntas%2Findex.html&amp;width=450&amp;layout=standard&amp;action=like&amp;size=small&amp;show_faces=true&amp;share=false&amp;height=80&amp;appId=439524829574377" width="450" height="20" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowtransparency="true"></iframe>  	
+				</li>
+	   		</ul>
+		</div>
 	</header>
 	<section class="publicidad">
 		<h3>Anuncio</h3>
