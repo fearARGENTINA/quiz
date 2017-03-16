@@ -1,0 +1,145 @@
+@import "http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css";
+/* Coolors Exported Palette - coolors.co/f4f1de-83b692-3d405b-9aa0a8-1d1e18 */
+/* HSL */
+/* RGB */
+header nav {
+  height: 100px;
+  width: 100%;
+  text-align: center;
+  background-color: white;
+  border-bottom: 2px solid #9aa0a8; }
+  header nav img {
+    height: 70px;
+    margin-top: 15px; }
+  header nav ul {
+    display: inline-block;
+    padding: 0;
+    margin: 0 0 0 70px;
+    height: 100px; }
+    header nav ul li {
+      text-transform: uppercase;
+      list-style: none;
+      display: inline-block;
+      font-size: 20px;
+      line-height: 100px; }
+      header nav ul li:not(:last-child)::after {
+        content: '';
+        border-left: 2px solid black;
+        margin: 0 10px; }
+      header nav ul li a {
+        color: #1d1e18;
+        text-decoration: none; }
+
+section.publicidad {
+  padding: 50px;
+  background-color: #f4f1de; }
+  section.publicidad h3 {
+    text-align: center; }
+  section.publicidad div {
+    height: 120px;
+    width: 600px;
+    background-color: white;
+    margin: 0 auto; }
+
+section.encuesta {
+  padding: 50px; }
+  section.encuesta .barra {
+    max-width: 400px;
+    height: 40px;
+    margin: 0 auto;
+    background: repeating-linear-gradient(45deg, #83b692, #83b692 10px, #59a56f 10px, #59a56f 20px); }
+    section.encuesta .barra::after {
+      color: #3d405b;
+      font-weight: 700;
+      font-size: 34px;
+      line-height: 40px; }
+  section.encuesta .uno {
+    width: 50px; }
+    section.encuesta .uno::after {
+      content: "1/8";
+      margin-left: 60px; }
+  section.encuesta .dos {
+    width: 100px; }
+    section.encuesta .dos::after {
+      content: "2/8";
+      margin-left: 110px; }
+  section.encuesta .tres {
+    width: 150px; }
+    section.encuesta .tres::after {
+      content: "3/8";
+      margin-left: 160px; }
+  section.encuesta .cuatro {
+    width: 200px; }
+    section.encuesta .cuatro::after {
+      content: "4/8";
+      margin-left: 210px; }
+  section.encuesta .cinco {
+    width: 250px; }
+    section.encuesta .cinco::after {
+      content: "5/8";
+      margin-left: 260px; }
+  section.encuesta .seis {
+    width: 300px; }
+    section.encuesta .seis::after {
+      content: "6/8";
+      margin-left: 310px; }
+  section.encuesta .siete {
+    width: 350px; }
+    section.encuesta .siete::after {
+      content: "7/8";
+      margin-left: 360px; }
+  section.encuesta .ocho {
+    width: 400px; }
+    section.encuesta .ocho::after {
+      content: "8/8";
+      margin-left: 410px; }
+  section.encuesta p {
+    margin-top: 40px;
+    color: #1d1e18;
+    text-align: center;
+    font-weight: 700; }
+    section.encuesta p:nth-child(2) {
+      font-size: 24px; }
+    section.encuesta p:nth-child(3) {
+      font-size: 18px; }
+  section.encuesta .quiz {
+    margin: 50px 0;
+    text-align: center; }
+    section.encuesta .quiz h3 {
+      font-size: 30px;
+      color: #1d1e18;
+      font-weight: 700; }
+    section.encuesta .quiz a {
+      text-decoration: none;
+      height: 40px;
+      padding: 10px 20px 10px 20px;
+      margin: 10px;
+      background-color: #83b692;
+      border-radius: 5px;
+      border: 1px solid #1d1e18;
+      text-transform: uppercase;
+      color: #1d1e18;
+      font-weight: 700;
+      font-size: 24px; }
+      section.encuesta .quiz a i {
+        margin-right: 10px; }
+
+body {
+  font-family: "Roboto", sans-serif; }
+
+h1 {
+  font-size: 40px;
+  font-weight: 700;
+  text-transform: uppercase; }
+
+h2 {
+  font-size: 30px;
+  font-weight: 700;
+  text-transform: uppercase; }
+
+h3 {
+  font-size: 20px;
+  font-weight: 500;
+  text-transform: uppercase; }
+
+/*# sourceMappingURL=style.css.map */

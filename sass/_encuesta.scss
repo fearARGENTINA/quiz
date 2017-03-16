@@ -1,0 +1,138 @@
+section.encuesta {
+	padding: 50px;
+
+	.barra {
+		max-width: 400px;
+		height: 40px;
+		margin: 0 auto;
+		background: repeating-linear-gradient(
+			45deg,
+	  		$color2,
+			$color2 10px,
+			$color6 10px,
+			$color6 20px
+		);
+
+		&::after {
+			color: $color3;
+			font-weight: 700;
+			font-size: 34px;
+			line-height: 40px;
+		}
+	}
+
+	.uno {
+		width: 50px;
+
+		&::after {
+			content: "1/8";
+			margin-left: 60px;
+		}
+	}
+
+	.dos {
+		width: 100px;
+
+		&::after {
+			content: "2/8";
+			margin-left: 110px;
+		}
+	}
+
+	.tres {
+		width: 150px;
+
+		&::after {
+			content: "3/8";
+			margin-left: 160px;
+		}
+	}
+
+	.cuatro {
+		width: 200px;
+
+		&::after {
+			content: "4/8";
+			margin-left: 210px;
+		}
+	}
+
+	.cinco {
+		width: 250px;
+
+		&::after {
+			content: "5/8";
+			margin-left: 260px;
+		}
+	}
+
+	.seis {
+		width: 300px;
+
+		&::after {
+			content: "6/8";
+			margin-left: 310px;
+		}
+	}
+
+	.siete {
+		width: 350px;
+
+		&::after {
+			content: "7/8";
+			margin-left: 360px;
+		}
+	}
+
+	.ocho {
+		width: 400px;
+
+		&::after {
+			content: "8/8";
+			margin-left: 410px;
+		}
+	}
+
+	p {
+		margin-top: 40px;
+		color: $color5;
+		text-align: center;
+		font-weight: 700;
+		&:nth-child(2) {
+			font-size: 24px;
+		}
+
+		&:nth-child(3) {
+			font-size: 18px;
+		}
+	}
+
+	.quiz {
+		margin: 50px 0;
+		text-align: center;
+
+		h3 {
+			font-size: 30px;
+			color: $color5;
+			font-weight: 700;
+		}
+
+		a {
+			i {
+				margin-right: 10px;
+			}
+
+			text-decoration: none;
+			height: 40px;
+			padding: 10px 20px 10px 20px;
+			margin: 10px;
+			background-color: $color2;
+			border-radius: 5px;
+			border: 1px solid $color5;
+			text-transform: uppercase;
+			color: $color5;
+			font-weight: 700;
+			font-size: 24px;
+		}
+	}
+}
